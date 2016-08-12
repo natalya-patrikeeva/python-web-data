@@ -8,6 +8,6 @@ while True:
     data = mysock.recv(512)    # 512-character chunks
     if ( len(data) < 1 ) :
         break
-        print data
+    print data
 
 mysock.close()
